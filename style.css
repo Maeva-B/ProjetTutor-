@@ -1,0 +1,180 @@
+body{
+  font-family: Hacker;
+  width: 100%;
+}
+
+@font-face{
+  font-family:"Hacker";
+  src:url(mad-hacker/Mad_Hacker.otf);
+}
+
+@font-face{
+  font-family:"GearsOfPeace";
+  src:url(gears_of_peace/GearsOfPeace.ttf);
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+h2{
+  color: #260079;
+  text-align: center;
+  font-size: 50px;
+  margin: 30px;
+  position: relative;
+  top: 30px;
+}
+
+h3{
+  font-family: GearsOfPeace;
+  color: #4171d1;
+  text-align: center;
+  font-size: 25px;
+  margin: 30px;
+  position: relative;
+  top: 30px;
+}
+
+
+
+
+/* Tableau entier */
+table {
+  border: medium solid #6495ed;
+  border-collapse: collapse;
+  width: 90%;
+  column-width: auto;
+  position: relative;
+  top: 60px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+/* Titre */
+th {
+  color: white;
+  border: thin solid #4171d1;
+  width : auto;
+  padding: 5px;
+  background-color: rgb(10, 52, 102);
+  background-image: url(sky.jpg);
+  font-size: 28px;
+}
+
+/* Lignes paires */
+tr:nth-child(even) {
+	background-color: #CED4E5;
+}
+
+/* Lignes impaires */
+tr:nth-child(odd) {
+	background-color: #E8EBF5;
+}
+
+td {
+  border: thin solid #6495ed;
+  width : auto;
+  padding: 5px;
+  text-align: center;
+  font-size: 24px;
+}
+
+div.carre{
+  height:105px; 
+  width:135px;
+}
+
+
+/*---------------------------------------*/
+
+
+/* Mise en page du menu de navigation */
+
+/* en-tête (menu de navigation) */
+header{
+    top: 0%;
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+    z-index:10;
+}
+
+/* Pour centrer le menu */
+nav{
+    width: 100%;
+    margin-left: 0%;
+    background-color: rgb(81, 83, 198);
+}
+
+#MenuNav{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+    z-index:10;
+}
+
+
+
+/* Modifier le style des liens du menu navigation*/
+nav a{
+    color: #150079;
+    text-decoration: none;
+    font-size: 35px;
+    display:inline-block;
+    margin: 10px;
+    padding:10px;
+    height: auto;
+    text-align: center;
+}
+
+#logoClub{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+
+/* Modifier le style des liens du menu navigation*/
+
+nav ul {
+    margin:0%;
+    list-style-type:none;
+    color: #43414e;
+    padding: 0;
+}
+
+
+/* Met les menu en ligne */
+nav li {
+    display:inline-block;
+    vertical-align: middle;
+}
+
+/* Survole de la souris */
+nav ul li a:hover {
+    color: rgb(113, 188, 234);
+} 
+
+
+
+.Menu{
+    vertical-align: sub;
+    font-size: 18px;
+}
+
+
+
+
+img#logo{
+  margin-right: 30px;
+}
+
+
+
+.info{
+  font-family: GearsOfPeace;
+}
